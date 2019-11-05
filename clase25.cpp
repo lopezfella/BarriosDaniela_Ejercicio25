@@ -4,7 +4,7 @@ using std::cout;
 using std::cin;
 using std::endl;
 
-float vamoarellena (int col, int fil){
+void vamoarellena (int col, int fil, float *M){
 	int a,b;
 	float M[fil][col];
 	for (a =0; a<=fil; a++){
